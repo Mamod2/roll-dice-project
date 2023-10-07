@@ -1,0 +1,101 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+body {
+  background-color: #393E46;
+}
+
+
+/* header -----> */
+#head-side {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.dice1 {
+  margin-top: 10px;
+ 
+
+}
+.dice2{
+ margin-top: 10px;
+
+
+}
+
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* middle side also imgs ----> */
+.middle-side {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: 100%
+  
+
+}
+img {
+  width: 100px;
+
+}
+/* footer ------------> */
+
+/* current footer ----> */
+.footer-side {
+  margin-top: -50px;
+}
+.current-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+
+}
+.current1 {
+  background-color: red;
+  border-radius: 30px;
+  width: 30%;
+  height: 100%;
+  
+}
+.current2 {
+  background-color: red;
+  border-radius: 30px;
+  width: 30%;
+  height: 100%;
+  
+}
+
+/* buttons -----------> */ 
+button {
+  font-family:Arial, Helvetica, sans-serif;
+  width: 170px;
+  height: 40px;
+  margin: 30px;
+  background-color:wheat;
+  border-radius: 20px;
+  font-size: 15px;
+  border: none;
+  
+}
+.btns-footer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top:130px;
+  
+}
+
+button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
